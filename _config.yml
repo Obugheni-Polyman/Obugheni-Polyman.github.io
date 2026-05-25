@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: Obugheni-Polyman Consulting
 description: Consulting, Research & Special Education Services
+url: https://obugheni-polyman.github.io
+baseurl: ""
