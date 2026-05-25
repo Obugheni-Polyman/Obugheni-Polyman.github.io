@@ -1,10 +1,8 @@
 ---
-layout: default
+layout: minima
 title: Home
 permalink: /
 ---
-[Home](/) | [Services](/services/) | [Projects](/projects/) | [Contact](/contact/)
-
 # Obugheni-Polyman Consulting
 **Consulting, Research & Special Education Services**
 
@@ -13,9 +11,15 @@ We help organizations and individuals solve complex problems through evidence-ba
 ## About Us
 Obugheni-Polyman Consulting delivers practical solutions backed by data and tailored to your context. Whether you need strategic advice, research support, or specialized training, we bring expertise and clarity to every project.
 
+## Our Services
+- **Consulting**: Strategic planning, operational improvement, policy advisory
+- **Research**: Data collection, analysis, impact evaluation for NGOs and startups  
+- **Special Education**: Assessment, learning plans, educator training
+
 ## Get Started
-Check out our [Services](/services/) to see how we can help, or [Contact Us](/contact/) to start a conversation.
+Check out our [Services](/services/) for details, or [Contact Us](/contact/) to start a conversation.
 
 ---
-**Contact:** ukwomao@gmail.com  
-**WhatsApp:** +234 7035749180
+**Email:** ukwomao@gmail.com  
+**WhatsApp:** +234 7035749180  
+**Location:** Rivers State, Nigeria
