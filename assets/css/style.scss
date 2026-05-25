@@ -55,25 +55,4 @@ h1, h2, h3 {
 .site-footer {
   border-top: 2px solid var(--brand-green);
   background: #f0f0f0;
-}}
-
-a {
-  color: var(--brand-blue);
-  text-decoration: none;
-}
-
-a:hover {
-  color: var(--brand-green);
-  text-decoration: underline;
-}
-
-/* Headings */
-h1, h2, h3 {
-  color: var(--brand-blue);
-}
-
-/* Footer */
-.site-footer {
-  border-top: 2px solid var(--brand-green);
-  background: #f0f0f0;
 }
