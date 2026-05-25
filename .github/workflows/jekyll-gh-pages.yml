@@ -1,54 +1,42 @@
----
-layout: default
-title: Obugheni-Polyman Consulting
----
+name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
-# Obugheni-Polyman Consulting
-**Consulting, Research & Special Education Services**
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
 
-We provide evidence-based solutions for education, research, and organizational development in Nigeria and beyond.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
-[Book a Consultation](#contact){: .btn }
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
----
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
 
-## Our Services
-
-### 1. Consulting
-Strategic advisory for schools, NGOs, and organizations. We help you design programs, improve operations, and implement policy that works on the ground.
-
-### 2. Research
-Academic and field research design, data collection, analysis, and reporting. From proposals to published papers, we handle the full process.
-
-### 3. Special Education Services
-Assessment, intervention planning, and training for learners with diverse needs. We work with parents, schools, and therapists to build inclusive learning environments.
-
----
-
-## Why Work With Us
-- **Practical**: Solutions tailored to your context, not generic templates
-- **Evidence-Based**: Grounded in current research and best practice
-- **Collaborative**: We work with your team, not around them
-
----
-
-## About
-Obugheni-Polyman Consulting is a team of educators, researchers, and consultants committed to improving learning outcomes and organizational performance in Africa. 
-
-[Add 2-3 lines about your credentials, years in practice, or mission here]
-
----
-
-## Contact Us
-Have a project or need support? Reach out:
-
-**Email**: ukwomao@gmail.com  
-**Phone/WhatsApp**: +234 7035749180 
-**Location**: Port Harcourt, Nigeria
-
-You can also message us directly on WhatsApp:  
-[Chat on WhatsApp](https://wa.me/2347035749180){: .btn }
-
----
-
-*© 2026 Obugheni-Polyman Consulting. All rights reserved.*
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
