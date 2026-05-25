@@ -3,6 +3,7 @@ layout: default
 title: Services
 permalink: /services/
 ---
+
 [Home](/) | [Services](/services/) | [Projects](/projects/) | [Contact](/contact/)
 
 # Our Services
