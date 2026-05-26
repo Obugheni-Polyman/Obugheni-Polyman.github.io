@@ -1,4 +1,4 @@
-theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman@v0.2.0
 title: Obugheni-Polyman Consulting
 description: Consulting, Research & Special Education Services
 url: https://obugheni-polyman.github.io
