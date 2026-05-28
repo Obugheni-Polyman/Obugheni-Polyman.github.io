@@ -3,20 +3,21 @@ layout: default
 title: Contact
 permalink: /contact/
 ---
-[Home](/) | [Services](/services/) | [Projects](/projects/) | [Contact](/contact/)
 
-# Get in Touch
+# Contact Us
 
-Ready to work together? Reach out and we’ll respond within 24 hours.
+Ready to start a project or need more information? Reach out directly.
 
-**Email:** ukwomao@gmail.com  
-**WhatsApp:** +234 7035749180  
+**Email:** [ukwomao@gmail.com](mailto:ukwomao@gmail.com)  
+**WhatsApp:** [+234 703 574 9180](https://wa.me/2347035749180)  
 **Location:** Rivers State, Nigeria
 
-## How It Works
-1. Send a brief message about your needs
-2. We schedule a free 20-min call to understand the problem
-3. You get a proposal with scope, timeline, and cost
+We typically respond within 24 hours.
 
----
-*Prefer WhatsApp? Message us directly for faster replies.*
+### What to Include
+When you contact us, please share:
+- A brief description of your project or challenge
+- Your timeline and budget range
+- How you’d like us to help
+
+[← Back to Home](/)
