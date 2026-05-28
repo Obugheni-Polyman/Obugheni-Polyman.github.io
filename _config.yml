@@ -1,3 +1,13 @@
 remote_theme: pages-themes/cayman@v0.2.0
+
 title: Obugheni-Polyman
 description: Consulting, Research and Special Education Services Website
+url: https://obugheni-polyman.github.io
+
+show_downloads: false
+
+github:
+    - name: Email
+    url: mailto:ukwomao@gmail.com
+    - name: WhatsApp
+    url: https://wa.me/2347035749180
