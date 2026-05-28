@@ -4,20 +4,24 @@ title: Services
 permalink: /services/
 ---
 
-[Home](/) | [Services](/services/) | [Projects](/projects/) | [Contact](/contact/)
-
 # Our Services
 
 ## 1. Consulting
-Strategic planning, operational improvement, and policy advisory for organizations. We focus on practical, implementable solutions.
+We help organizations make better decisions with clear, practical advice.
+- Strategic planning and organizational design
+- Operational improvement and process optimization
+- Policy advisory for NGOs, startups, and government projects
 
 ## 2. Research
-Data collection, analysis, and report writing for NGOs, startups, and academic partners. Mixed methods, surveys, and impact evaluation.
+Rigorous, evidence-based research to measure impact and guide action.
+- Data collection: surveys, interviews, field assessments
+- Data analysis: quantitative and qualitative methods
+- Impact evaluation and M&E frameworks
 
-## 3. Special Education Services
-Assessment, individualized learning plans, and training for educators and parents working with learners with special needs.
+## 3. Special Education
+Support for learners with diverse needs and the educators who serve them.
+- Learning assessments and individualized education plans
+- Teacher training on inclusive education practices
+- Program design for special needs centers and schools
 
-## Why Work With Us
-- Evidence-based approach
-- Clear communication, no jargon
-- Flexible engagement: project-based or retainer
+[← Back to Home](/)
